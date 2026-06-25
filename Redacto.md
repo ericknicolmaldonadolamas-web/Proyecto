@@ -1,3 +1,4 @@
+#LUDUS
 #PAGINA PRINCIPAL
 #esta contendras cosas como:
 -nombre de la pagina y su logo
@@ -23,5 +24,15 @@
 
 #La elegi porque me interea mucho esto de la venta de juegos, lo veo muy dinamico, esta dirigido mas para personas gamers, pero es para que la mayoria de las personas pueda ingresar y ver, ofrece casi cualquier tipos de juegos, te permite comprar juegos online
 
-#color principal
-#0055FF
+#color principal:
+#9146FF
+#color secundario
+#00F5D4
+#color de fondo
+#121214
+#color de texto
+#F5F5F7
+#color de acento
+#FF007F
+#fondo
+assets

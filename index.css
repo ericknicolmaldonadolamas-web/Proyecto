@@ -1,0 +1,63 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    width: 70%;
+}
+/* HEADER */
+header {
+    display: flex; /* pone los items del header uno al lado del otro */
+    align-items: center; /* alinea los el titulo y el subtitulo en el centro verticalente */
+}
+header img {
+    width: 20%; /* tamaño del logo */
+    margin: 0; /* margen del logo */
+    margin-top: 2em; /* margen superior del logo */
+    margin-bottom: 1.5em; /* margen inferior del logo */
+}
+.perfil {
+    display: flex;
+    align-items: end;
+    width: 5%; /* tamaño de la imagen de perfil */
+    padding: 0; 
+    margin: 1.5em;
+
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5em;
+}
+.container.titulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.subtitulo {
+    padding: 15px;
+}
+
+/* NAV */
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+}
+
+
+.anuncio img {
+    display: flex;
+    width: 100%;
+}
+
+article img {
+    display: flex;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}

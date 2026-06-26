@@ -29,7 +29,7 @@
 #color secundario
 #00F5D4
 #color de fondo
-#121214
+#343436
 #color de texto
 #F5F5F7
 #color de acento

@@ -3,15 +3,22 @@
     padding: 0;
 }
 body {
-    width: 70%;
+    font-family: "Roboto", sans-serif;
+  /*background-image: url(assets/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/
 }
 /* HEADER */
 header {
     display: flex; /* pone los items del header uno al lado del otro */
     align-items: center; /* alinea los el titulo y el subtitulo en el centro verticalente */
+    background-color: #161616;
+    border-bottom: solid 6px #9146FF;
+    padding: 1em;
 }
 header img {
-    width: 20%; /* tamaño del logo */
+    width: 12%; /* tamaño del logo */
     margin: 0; /* margen del logo */
     margin-top: 2em; /* margen superior del logo */
     margin-bottom: 1.5em; /* margen inferior del logo */
@@ -19,15 +26,16 @@ header img {
 .perfil {
     display: flex;
     align-items: end;
-    width: 5%; /* tamaño de la imagen de perfil */
-    padding: 0; 
-    margin: 1.5em;
+    width: 3%; /* tamaño de la imagen de perfil */
+    padding: 0;
+    margin: 1.5em; /* margen fuera del perfil */
 
 }
 .titulo {
     display: flex;
-    align-items: center;
-    margin-top: 1.5em;
+    align-items: center; /* Alinea los items en el centro verticalmente */
+    margin-top: 1.5em; /* margen superior */
+    color: #00F5D4;
 }
 .container.titulo {
     display: flex;
@@ -37,18 +45,49 @@ header img {
 }
 .subtitulo {
     padding: 15px;
+    color: #ffffff2c;
 }
 
 /* NAV */
+nav {
+    background-color: rgb(10, 10, 10);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
 nav ul {
     display: flex;
     list-style: none;
+    justify-content: center;
+    gap: 6em;
+}
+nav ul li:hover {
+    background-color: #ffffff34;
+    border-radius: 5px;
 }
 nav a {
     text-decoration: none;
 }
+ nav ul li a {
+    color: #00F5D4;
+    line-height: 1em;
+    font-weight: 500;
+    font-size: 1.1em
+ }
+.li {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
 
-
+/*MAIN*/
+main {
+    width: 60%;
+    margin-top: 3em;
+    border: solid 3px #9146FF;
+    border-radius: 10px;
+    background-color: #161616c4
+}
 .anuncio img {
     display: flex;
     width: 100%;
